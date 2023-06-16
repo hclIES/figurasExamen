@@ -8,7 +8,7 @@ package exf2.pruebafigura;
  *
  * @author cic
  */
-public class Punto extends Figura{
+public class Punto {
 
     private double x;
     private double y;
@@ -67,13 +67,4 @@ public class Punto extends Figura{
         return "(" + getX() + "," + getY() + ")";
     }
 
-    @Override
-    public double perímetro() {
-        return 1;
-    }
-
-    @Override
-    public double área() {
-        return 1;
-    }
 }
